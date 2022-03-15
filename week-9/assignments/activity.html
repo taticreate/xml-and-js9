@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Activity - Week 9</title>
+  </head>
+  <body>
+    <form onreset="onReset()" onsubmit=onSubmit(event)>
+      <input
+        type="text"
+        name="input"
+        id="input"
+        placeholder="enter keyword"
+      />
+
+      <button type="submit">Apply filter</button>
+      <button type="reset">Reset</button>
+    </form>
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>IP Address</th>
+      </tr>
+    </thead>
+    <tbody id="table-main"></tbody>
+    </table>
+    <script type="text/javascript" src="activity-1.js"></script>
+  </body>
+</html>
